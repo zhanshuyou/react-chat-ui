@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #282c34;
+}
+
+.window {
+  width: 1000px;
+  height: 800px;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.5);
+}

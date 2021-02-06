@@ -1,0 +1,5 @@
+.message-box {
+  height: calc(100% - 64px);
+  overflow: auto;
+  padding: 32px;
+}

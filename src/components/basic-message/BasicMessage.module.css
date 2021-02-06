@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  transition: background-color 0.2s;
+}
+
+.container:hover {
+  background-color: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.avatar {
+  margin-right: 8px;
+  width: 36px;
+  height: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.link {
+  display: block;
+  color: #265487;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #263576;
+}
